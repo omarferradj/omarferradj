@@ -14,7 +14,7 @@ body {
 	scroll-snap-type: y mandatory;
 	overflow-y: scroll;
 	height: 100vh;
-	overflow-x: hidden;
+
 }
 
 header {
@@ -112,7 +112,7 @@ section {
 	max-width: 1200px;
 	margin: 0 auto;
 	animation-name: canm;
-	animation-duration: 10s;
+	animation-duration: 15s;
 	animation-iteration-count: infinite ;
 
 }
@@ -120,7 +120,7 @@ section {
 	max-width: 1200px;
 	margin: 0 auto;
 	animation-name: canm;
-	animation-duration: 10s;
+	animation-duration: 15s;
 	animation-iteration-count: infinite ;
 }
 @keyframes canm{
@@ -160,10 +160,10 @@ section {
 		
 	 
 }
-.arrow {
+.arrow {    background-color: none;
             position: relative;
-            top: 100%;
-            left: 100%;
+            width: 100px;
+            margin-left: 55%;
             transform: translate(-50%, -50%);
         }
         
@@ -220,7 +220,7 @@ section {
 	text-shadow: 1px 1px 5px royalblue;
 	background-color: dodgerblue;
 	box-shadow: 5px 5px 10px skyblue;
-	border-radius: 1%;
+	border-radius: 2%;
 }
 
 .section-content {
@@ -229,7 +229,7 @@ section {
 	line-height: 1.6;
 	height: 400px;
 	box-shadow: 5px 5px 10px skyblue;
-	border-radius: 1%;
+	border-radius: 2%;
 }
 .text1{
 	color: white;
@@ -293,7 +293,7 @@ bottom: 0px;
 	text-shadow: 1px 1px 5px floralwhite;
 	background-color: ghostwhite;
 	box-shadow: 1px 1px 5px white;
-	border-radius: 1%;
+	border-radius: 2%;
 }
 .contact-info {
 	max-width: 600px;
@@ -307,7 +307,7 @@ bottom: 0px;
 	list-style: none;
 	margin-top: 20px;
 	box-shadow: 1px 1px 5px white;
-	border-radius: 1%;
+	border-radius: 2%;
 }
 
 .contact-list li {
@@ -359,52 +359,7 @@ footer p {
 	font-size: 12px;
 }
 
-@media only screen and (max-width: 480px) {
-	html,body{
-		width: 100%;
-		height: 100%;
-		margin: 0;
-		padding: 0;
-		overflow-x: hidden;
-	}
-	.logo {
-		font-size: 1.2rem;
-	}
-
-	.main-heading {
-		font-size: 32px;
-	}
-
-	.sub-heading {
-		font-size: 24px;
-	}
-
-	.intro-text {
-		font-size: 16px;
-		margin-bottom: 30px;
-	}
-
-	.about-me,
-	.contact-info {
-		max-width: 400px;
-	}
-
-	.section-heading {
-		font-size: 20px;
-	}
-
-	.section-content {
-		font-size: 14px;
-	}
-}
-@media only screen and (max-width: 900px) and (min-width: 900px) {
-	html,body{
-		width: 100%;
-		height: 100%;
-		margin: 0;
-		padding: 0;
-		overflow-x: hidden;
-	}
+@media (max-width: 768px) {
 	.logo {
 		font-size: 1.2rem;
 	}
