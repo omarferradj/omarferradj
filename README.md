@@ -10,7 +10,7 @@
 
 ###
 
-<p align="left">Coding since 2022<br>📚 I'm so curious about AI, and trying to learn more and more about it<br>🎯 Goals: Trying to integrate AI solutions in APPS</p>
+<p align="left">-Coding since 2022<br>-I'm so curious about AI, and trying to learn more and more about it<br>-Goals: Trying to integrate AI solutions in APPS</p>
 
 ###
 
